@@ -4,6 +4,7 @@ Through the Wire is a proof of concept exploit for [CVE-2022-26134](), an OGNL i
 
 * [Vendor advisory](https://confluence.atlassian.com/doc/confluence-security-advisory-2022-06-02-1130377146.html)
 * [Volexity "in-the-wild" write-up](https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/)
+* [Rapid7 write-up](https://www.rapid7.com/blog/post/2022/06/02/active-exploitation-of-confluence-cve-2022-26134/)
 
 Through the Wire implements two different exploits. The reverse shell will shell out to `bash` and therefore be more likely to be detected. The file reader executes from memory and is therefore unlikely to be detected. The exploits *only* work on Linux installs of Confluence. They could work on Windows but I'm also lazy.
 
